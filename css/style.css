@@ -6,6 +6,22 @@
 }
 
 /* GENERAL */
+header{
+    background: linear-gradient(rgba(226, 239, 247, 100), rgba(195, 231, 232, 91));
+    padding: 0 10px;
+    text-align: center;
+    /*box-shadow: rgba(171, 205, 245, 100) 10px 10px 20px inset;*/
+    text-shadow: rgba(171, 205, 245, 100) 5px 5px;
+}
+
+footer{
+    background: linear-gradient(rgba(195, 231, 232, 91), rgba(226, 239, 247, 100));
+    padding: 0 10px;
+    text-align: center;
+    /*box-shadow: rgba(171, 205, 245, 100) 10px 10px 20px inset;*/
+    text-shadow: rgba(171, 205, 245, 100) 5px 5px;
+}
+
 /* Fuente */
 button,
 body{
@@ -156,6 +172,28 @@ main{
     justify-content: flex-start;   
 }
 
+.cabecera__div-img{
+    animation: rotacion 5s infinite linear;
+}
+
+@keyframes rotacion{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(359deg);
+    }
+}
+
+.transformacion_menu{
+    transition: all 0.4s;
+}
+
+.transformacion_menu:hover{
+    transform: translateY(-10px);
+    font-size: 25px;
+}
+
 @media screen and (min-width: 320px){
     /* GENERAL */
     body{
@@ -171,14 +209,6 @@ main{
         min-height: 95vh;
     }
 
-    header,
-    footer{
-        background-color: rgba(195, 231, 232, 91);
-        padding: 0 10px;
-        text-align: center;
-        box-shadow: rgba(171, 205, 245, 100) 10px 10px 20px inset;
-        text-shadow: rgba(171, 205, 245, 100) 5px 5px;
-    }
 
     /* HEADER */
     .cabecera__nav--escritorio{
@@ -276,15 +306,6 @@ main{
         position: relative;
         margin: 20px;
         min-height: 100vh;
-    }
-
-    header,
-    footer{
-        background-color: rgba(195, 231, 232, 91);
-        padding: 10px;
-        text-align: center;
-        box-shadow: rgba(171, 205, 245, 100) 10px 10px 20px inset;
-        text-shadow: rgba(171, 205, 245, 100) 5px 5px;
     }
 
 
