@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* GENERAL */
+/* Fuente */
+button,
+body{
+    font-family: 'Arima Madurai', cursive;
+}
+
+/* Tamaño y estilo de textos */
+header nav,
+ul p{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+label{
+    font-weight: 900;
+}
+
+footer li{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* Listas */
+li{
+    list-style-type: none;
+}
+
+/* Vinculos */
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Fondo */
+body{
+    background-color: rgba(226, 239, 247, 100);
+}
+
+main{
+    grid-area: main;
+    margin: 10px 0;
+}
+
+/* Estilo de botones */
+button{
+    padding: 0 10px;
+    font-size: 15px;
+    font-weight: 900;
+    border: 5px solid rgba(110, 231, 232, 91);
+    border-radius: 10px;
+    box-shadow: inset 2px 2px 3px rgba(110, 231, 232, 91),
+    inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+button:hover{
+    background-color: rgba(190, 231, 232, 91);
+}
+
+button:active{
+    box-shadow: inset -2px -2px 3px rgba(110, 231, 232, 91),
+    inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+.ubicacion{
+    border: 5px solid rgba(110, 231, 232, 91);
+    border-radius: 10px;
+    padding: 0 5px;
+}
+
+/* POSICIONAMIENTO */
+/* Cabecera */
+.cabecera,
+.cabecera__div,
+.cabecera__nav,
+.cabecera__nav-ul{
+    display: flex;
+    align-items: center;
+}
+
+.cabecera__nav-ul-li{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.cabecera__nav--escritorio{
+    align-self:flex-end;
+    justify-content: space-between;
+}
+
+.cabecera__div{
+    justify-self: flex-end;
+}
+
+header{
+    grid-area: header;
+    justify-content: space-between;
+}
+
+/* Pie de pagina */
+footer{
+    grid-area: footer;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin-bottom: 0;
+    height: auto;
+}
+
+/* INDEX */
+.index_principal{
+    display: flex;
+    align-items: center;
+}
+
+/* GALERIA */
+main{
+    min-width: 100%;
+}
+
+.galeria_principal img{
+    max-width: 100%;
+    max-height: 100%;
+    margin: 5px;
+    border: 5px solid rgba(110, 231, 232, 91);
+    border-radius: 10px;
+}
+
+/* INICIAR SESION */
+.iniciar_sesion_principal{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+.iniciar_sesion_principal div{
+   display: flex;
+   margin: 10px 0;
+   justify-content: center;
+}
+
+.iniciar_sesion__div--button button{
+    margin: 0 20px;
+}
+
+.galeria_principal{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;   
+}
+
+@media screen and (min-width: 320px){
+    /* GENERAL */
+    body{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto 1fr auto;
+        grid-template-areas: 
+        "header header"
+        "main main"
+        "footer footer";
+        position: relative;
+        margin: 20px;
+        min-height: 95vh;
+    }
+
+    header,
+    footer{
+        background-color: rgba(195, 231, 232, 91);
+        padding: 0 10px;
+        text-align: center;
+        box-shadow: rgba(171, 205, 245, 100) 10px 10px 20px inset;
+        text-shadow: rgba(171, 205, 245, 100) 5px 5px;
+    }
+
+    /* HEADER */
+    .cabecera__nav--escritorio{
+        display: none;
+    }
+    
+    .cabecera__div-img{
+        height: 30px;
+    }
+    
+    .cabecera__div-h1{
+        padding-left: 5px;
+        font-size: 20px;
+    }
+
+    .cabecera__nav--movil{
+        padding: 10px;
+    }
+    
+    .cabecera__nav-ul--movil{
+        display: flex;
+        flex-direction: column;
+        font-size: 8px;
+    }
+
+    .cabecera__nav-ul--movil li{
+        padding-bottom: 10px;
+    }
+
+    /* FOOTER */
+    .pie_de_pagina__nav--movil{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 10px;
+    }
+
+    .pie_de_pagina__nav--escritorio{
+        display: none;
+    }
+
+
+    /* INDEX */
+    .index_principal{
+        justify-content: space-around;
+    }
+
+    .index_principal--imagen_escritorio{
+        display: none;
+    }
+
+    .index_principal--imagen_movil{
+        align-self: center;
+    }
+
+    .index_principal--imagen_movil img{
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+
+    /* GALERIA */
+    .galeria_principal div{
+        width: 85px;
+        margin: 10px;
+        align-self: center;
+    }
+
+
+    /* CARTA */
+    .carta_principal div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .carta_principal ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+    /* GENERAL */
+    body{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto 1fr auto;
+        grid-template-areas: 
+        "header header"
+        "main main"
+        "footer footer";
+        position: relative;
+        margin: 20px;
+        min-height: 100vh;
+    }
+
+    header,
+    footer{
+        background-color: rgba(195, 231, 232, 91);
+        padding: 10px;
+        text-align: center;
+        box-shadow: rgba(171, 205, 245, 100) 10px 10px 20px inset;
+        text-shadow: rgba(171, 205, 245, 100) 5px 5px;
+    }
+
+
+    /* HEADER */
+    .cabecera__nav--escritorio{
+        display: block;
+    }
+
+    .cabecera__div-img{
+        height: 100px;
+    }
+
+    .cabecera__nav--movil{
+        display: none;
+    }
+
+    .cabecera__div-h1{
+        padding-left: 30px;
+        font-size: 50px;
+    }
+
+
+    /* FOOTER */
+    .pie_de_pagina__nav--escritorio{
+        display: block;
+    }
+
+    .pie_de_pagina__nav--movil{
+        display: none;
+    }
+
+    .pie_de_pagina__nav--escritorio{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-around;  
+    }
+
+
+    /* INDEX */
+    .index_principal--imagen_escritorio{
+        display: block;
+    }
+
+    .index_principal--imagen_escritorio img{
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .index_principal--imagen_movil{
+        display: none;
+    }
+
+
+    /* CARTA */
+    .carta_principal div{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: row;
+    }
+
+
+    /* GALERIA */
+    .galeria_principal div{
+        margin: 10px;
+        width: 200px;
+        align-self: center;
+    }
+}
+
+
