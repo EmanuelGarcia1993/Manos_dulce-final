@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="torta,desayuno,galleta,tarta,postre">
     <meta name="author" content="Emanuel Garcia">
-    <meta name="description" content="Esta es una pagina hecha a base del curso de coderhouse en donde desarrollo un sitio de mi proyecto personal">
+    <meta name="description"
+        content="Esta es una pagina hecha a base del curso de coderhouse en donde desarrollo un sitio de mi proyecto personal">
     <link rel="icon" href="../media/Images/icon/Logo.ico">
     <title>Manos Dulces</title>
-    
+
     <!-- BOOTSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
@@ -17,6 +19,7 @@
     <!-- CSS propio -->
     <link rel="stylesheet" href="../css/style.css">
 </head>
+
 <body>
     <!-- HEADER -->
     <header>
@@ -25,45 +28,57 @@
                 <div class="row">
                     <nav class="navbar bg-light fixed-top">
                         <div class="container-fluid">
-                            <a class="navbar-brand" href="../index.html"><img
-                                    src="../media/Images/Logo sin fondo final.png" height="40em" alt="logo"><strong>Manos
-                                        Dulces</strong></a>
-                            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
-                                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                            <a class="navbar-brand" href="../index.html">
+                                <img src="../media/Images/Logo sin fondo final.png" height="40em" alt="logo">
+                                <strong class="titulo">Manos Dulces</strong>
+                            </a>
+                            <button class="navbar-toggler btn btn-outline-info" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                                 <span class="navbar-toggler-icon"></span>
                             </button>
-                            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
-                                aria-labelledby="offcanvasNavbarLabel">
+                            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                                 <div class="offcanvas-header">
                                     <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><p><strong>Menu de Manos Dulces</strong></p></h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
-                                        aria-label="Close"></button>
+                                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                                 </div>
                                 <div class="offcanvas-body">
                                     <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="../index.html">Inicio</a>
+                                            <a class="nav-link" href="../index.html">
+                                                Inicio
+                                            </a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="galeria.html">Galeria</a>
+                                            <a class="nav-link" href="galeria.html">
+                                                Galeria
+                                            </a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link active" aria-current="page" href="carta.html">Carta</a>
+                                            <a class="nav-link active" href="carta.html">
+                                                Carta
+                                            </a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="quienes_somos.html">Quienes somos</a>
+                                            <a class="nav-link" href="quienes_somos.html">
+                                                Quienes somos
+                                            </a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="iniciar_sesion.html">Iniciar Sesion</a>
+                                            <a class="nav-link" href="iniciar_sesion.html">
+                                                Iniciar Sesion
+                                            </a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="carrito.html">Carrito</a>
+                                            <a class="nav-link" href="carrito.html">
+                                                Carrito
+                                            </a>
                                         </li>
                                     </ul>
                                     <form class="d-flex" role="search">
                                         <input class="form-control me-2" type="search" placeholder="Buscar"
                                             aria-label="Search">
-                                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                                        <button class="btn btn-outline-info" type="submit">
+                                            Buscar
+                                        </button>
                                     </form>
                                 </div>
                             </div>
@@ -75,7 +90,219 @@
     </header>
 
     <!-- MAIN -->
-    <main class="carta_principal">
+    <main class="main_carta">
+
+        <div class="container">
+            <div class="col-sm-10 col-xl-12">
+
+                <div class="accordion" id="accordionMenu">
+
+                    <!------------------------------------Separacion de menu------------------------------------------>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingMenuOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseMenuOne" aria-expanded="false" aria-controls="collapseMenuOne">
+                                <strong>Menu 1</strong>
+                            </button>
+                        </h2>
+
+                        <div id="collapseMenuOne" class="accordion-collapse collapse" aria-labelledby="headingMenuOne"
+                            data-bs-parent="#accordionMenu">
+                            <div class="accordion-body">
+
+                                <div id="accordionSubmenuOne">
+
+                                    <!------------------------------------Separacion de Sub menu------------------------------------------>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingSubmenuOneOne">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseSubmenuOneOne"
+                                                aria-expanded="false" aria-controls="collapseSubmenuOneOne">
+                                                Articulo
+                                            </button>
+                                        </h2>
+
+                                        <div id="collapseSubmenuOneOne" class="accordion-collapse collapse"
+                                            aria-labelledby="headingSubmenuOneOne"
+                                            data-bs-parent="#accordionSubmenuOne">
+                                            <div class="accordion-body">
+                                                <p class="h1">Aqui va la descripcion</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!------------------------------------Separacion de Sub menu------------------------------------------>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingSubmenuOneTwo">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseSubmenuOneTwo"
+                                                aria-expanded="false" aria-controls="collapseSubmenuOneTwo">
+                                                Articulo
+                                            </button>
+                                        </h2>
+
+                                        <div id="collapseSubmenuOneTwo" class="accordion-collapse collapse"
+                                            aria-labelledby="headingSubmenuOneTwo"
+                                            data-bs-parent="#accordionSubmenuOne">
+                                            <div class="accordion-body">
+                                                <p class="h1">Aqui va la descripcion</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!------------------------------------Separacion de Sub menu------------------------------------------>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingSubmenuOneThree">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseSubmenuOneThree"
+                                                aria-expanded="false" aria-controls="collapseSubmenuOneThree">
+                                                Articulo
+                                            </button>
+                                        </h2>
+
+                                        <div id="collapseSubmenuOneThree" class="accordion-collapse collapse"
+                                            aria-labelledby="headingSubmenuOneThree"
+                                            data-bs-parent="#accordionSubmenuOne">
+                                            <div class="accordion-body">
+                                                <p class="h1">Aqui va la descripcion</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!------------------------------------Separacion de Sub menu------------------------------------------>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingSubmenuOneFour">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseSubmenuOneFour"
+                                                aria-expanded="false" aria-controls="collapseSubmenuOneFour">
+                                                Articulo
+                                            </button>
+                                        </h2>
+
+                                        <div id="collapseSubmenuOneFour" class="accordion-collapse collapse"
+                                            aria-labelledby="headingSubmenuOneFour"
+                                            data-bs-parent="#accordionSubmenuOne">
+                                            <div class="accordion-body">
+                                                <p class="h1">Aqui va la descripcion</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!------------------------------------Separacion de menu------------------------------------------>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingMenuTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseMenuTwo" aria-expanded="false" aria-controls="collapseMenuTwo">
+                                <strong>Menu 2</strong>
+                            </button>
+                        </h2>
+                        <div id="collapseMenuTwo" class="accordion-collapse collapse" aria-labelledby="headingMenuTwo"
+                            data-bs-parent="#accordionMenu">
+                            <div class="accordion-body">
+
+                                <div class="accordion" id="accordionSubmenuTwo">
+
+                                    <!------------------------------------Separacion de Sub menu------------------------------------------>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingSubmenuTwoOne">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseSubmenuTwoOne"
+                                                aria-expanded="false" aria-controls="collapseSubmenuTwoOne">
+                                                Articulo
+                                            </button>
+                                        </h2>
+
+                                        <div id="collapseSubmenuTwoOne" class="accordion-collapse collapse"
+                                            aria-labelledby="headingSubmenuTwoOne"
+                                            data-bs-parent="#accordionSubmenuTwo">
+                                            <div class="accordion-body">
+                                                <p class="h1">Aqui va la descripcion</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!------------------------------------Separacion de Sub menu------------------------------------------>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingSubmenuTwoTwo">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseSubmenuTwoTwo"
+                                                aria-expanded="false" aria-controls="collapseSubmenuTwoTwo">
+                                                Articulo
+                                            </button>
+                                        </h2>
+
+                                        <div id="collapseSubmenuTwoTwo" class="accordion-collapse collapse"
+                                            aria-labelledby="headingSubmenuTwoTwo"
+                                            data-bs-parent="#accordionSubmenuTwo">
+                                            <div class="accordion-body">
+                                                <p class="h1">Aqui va la descripcion</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!------------------------------------Separacion de Sub menu------------------------------------------>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingSubmenuTwoThree">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseSubmenuTwoThree"
+                                                aria-expanded="false" aria-controls="collapseSubmenuTwoThree">
+                                                Articulo
+                                            </button>
+                                        </h2>
+
+                                        <div id="collapseSubmenuTwoThree" class="accordion-collapse collapse"
+                                            aria-labelledby="headingSubmenuTwoThree"
+                                            data-bs-parent="#accordionSubmenuTwo">
+                                            <div class="accordion-body">
+                                                <p class="h1">Aqui va la descripcion</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!------------------------------------Separacion de Sub menu------------------------------------------>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingSubmenuTwoFour">
+                                            <button class="accordion-button collapsedd" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseSubmenuTwoFour"
+                                                aria-expanded="false" aria-controls="collapseSubmenuTwoFour">
+                                                Articulo
+                                            </button>
+                                        </h2>
+
+                                        <div id="collapseSubmenuTwoFour" class="accordion-collapse collapse"
+                                            aria-labelledby="headingSubmenuTwoFour"
+                                            data-bs-parent="#accordionSubmenuTwo">
+                                            <div class="accordion-body">
+                                                <p class="h1">Aqui va la descripcion</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!------------------------------------Separacion de menu------------------------------------------>
+
+                </div>
+            </div>
+        </div>
+
+        <!--
         <div>
             <ul>
                 <p>Tortas</p>
@@ -105,6 +332,7 @@
                 <li>Personalizada</li>
             </ul>
         </div>
+        -->
     </main>
 
     <!-- ASIDE -->
@@ -113,25 +341,41 @@
     </aside>
 
     <!-- FOOTER -->
-    <!-- FOOTER -->
     <footer class="py-5">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-6 col-md-3 mb-4">
                     <h5>Navegacion</h5>
                     <ul class="nav flex-column">
-                        <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-muted">Inicio</a>
+                        <li class="nav-item mb-2">
+                            <a href="index.html" class="nav-link p-0 text-muted">
+                                Inicio
+                            </a>
                         </li>
-                        <li class="nav-item mb-2"><a href="galeria.html" class="nav-link p-0 text-muted">Galeria</a>
+                        <li class="nav-item mb-2">
+                            <a href="galeria.html" class="nav-link p-0 text-muted">
+                                Galeria
+                            </a>
                         </li>
-                        <li class="nav-item mb-2"><a href="carta.html" class="nav-link p-0 text-muted">Carta</a>
+                        <li class="nav-item mb-2">
+                            <a href="carta.html" class="nav-link p-0 text-muted">
+                                Carta
+                            </a>
                         </li>
-                        <li class="nav-item mb-2"><a href="quienes_somos.html" class="nav-link p-0 text-muted">Quienes
-                                Somos</a></li>
-                        <li class="nav-item mb-2"><a href="iniciar_sesion.html" class="nav-link p-0 text-muted">Iniciar
-                                Sesion</a>
+                        <li class="nav-item mb-2">
+                            <a href="quienes_somos.html" class="nav-link p-0 text-muted">
+                                Quienes Somos
+                            </a>
                         </li>
-                        <li class="nav-item mb-2"><a href="carrito.html" class="nav-link p-0 text-muted">Carrito</a>
+                        <li class="nav-item mb-2">
+                            <a href="iniciar_sesion.html" class="nav-link p-0 text-muted">
+                                Iniciar Sesion
+                            </a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="carrito.html" class="nav-link p-0 text-muted">
+                                Carrito
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -139,10 +383,16 @@
                 <div class="col-6 col-md-3 mb-4">
                     <h5>Redes sociales</h5>
                     <ul class="nav flex-column">
-                        <li class="nav-item mb-2"><a href="https://www.facebook.com/"
-                                class="nav-link p-0 text-muted">Facebook</a></li>
-                        <li class="nav-item mb-2"><a href="https://www.instagram.com/manos.dulces_md/"
-                                class="nav-link p-0 text-muted">Instagram</a></li>
+                        <li class="nav-item mb-2">
+                            <a href="https://www.facebook.com/" class="nav-link p-0 text-muted">
+                                Facebook
+                            </a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="https://www.instagram.com/manos.dulces_md/" class="nav-link p-0 text-muted">
+                                Instagram
+                            </a>
+                        </li>
                     </ul>
                 </div>
 
@@ -152,7 +402,9 @@
                         <div class="d-flex flex-column flex-sm-row w-100 gap-2">
                             <label for="newsletter1" class="visually-hidden">Correo electronico</label>
                             <input id="newsletter1" type="text" class="form-control" placeholder="Correo electronico">
-                            <button class="btn btn-primary" type="button">Enviar</button>
+                            <button class="btn btn-info" type="button">
+                                Enviar
+                            </button>
                         </div>
                     </form>
                 </div>
@@ -161,19 +413,28 @@
             <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
                 <p>Muchas gracias por visitar nuestra pagina</p>
                 <ul class="list-unstyled d-flex">
-                    <li class="ms-3"><a class="link-dark" href="https://www.facebook.com/"><img
-                                src="../media/Images/icon/bxl-facebook-square.svg" alt=""></a></li>
-                    <li class="ms-3"><a class="link-dark" href="https://www.instagram.com/manos.dulces_md/"><img
-                                src="../media/Images/icon/bxl-instagram-alt.svg" alt=""></a></li>
-                    <li class="ms-3"><a class="link-dark" href="https://api.whatsapp.com/send?phone=543541686195"><img
-                                src="../media/Images/icon/bxl-whatsapp.svg" alt=""></a></li>
+                    <li class="ms-3">
+                        <a class="link-dark" href="https://www.facebook.com/">
+                            <img src="../media/Images/icon/bxl-facebook-square.svg" alt="Facebook">
+                        </a>
+                    </li>
+                    <li class="ms-3">
+                        <a class="link-dark" href="https://www.instagram.com/manos.dulces_md/">
+                            <img src="../media/Images/icon/bxl-instagram-alt.svg" alt="Instagram">
+                        </a>
+                    </li>
+                    <li class="ms-3">
+                        <a class="link-dark" href="https://api.whatsapp.com/send?phone=543541686195">
+                            <img src="../media/Images/icon/bxl-whatsapp.svg" alt="Whatsapp">
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-        crossorigin="anonymous"></script>
+    <!-- JavaScript de BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
 </body>
 </html>

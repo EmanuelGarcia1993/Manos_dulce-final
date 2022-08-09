@@ -6,6 +6,7 @@
 }
 
 /* GENERAL */
+.header,
 header{
     background: linear-gradient(rgba(226, 239, 247, 100), rgba(195, 231, 232, 91));
     text-align: center;
@@ -31,7 +32,44 @@ main{
     text-align: start;
 }
 
+.main_carta{
+    padding-bottom: 20px;
+}
+
 .main_inicio{
     padding-top: 0;
     height: 100vh;
 }
+
+.main_quienes_somos{
+    margin: 0 15px;
+    height: 100vh;
+}
+
+.titulo{
+    padding-left: 10px;
+}
+
+h5,
+.btn-info,
+.form-label,
+.nav-link{
+    font-weight: bolder;
+}
+/* Modificacion del boton bd-primary */
+/*
+.btn-bd-primary{
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: rgb(179, 53, 53); /* Color letra inactivo
+    --bs-btn-bg: rgb(107, 12, 107); /* Color boton inactivo
+    --bs-btn-border-color: rgb(62, 60, 154); /* Borde boton inactivo
+    --bs-btn-border-radius: .5rem; /* Borde de las esquinas del boton
+    --bs-btn-hover-color: rgb(73, 154, 60); /* Color letra activo
+    --bs-btn-hover-bg: rgb(60, 154, 127); /* Color boton activo
+    --bs-btn-hover-border-color: #{shade-color($bd-violet, 10%)};
+    --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+    --bs-btn-active-color: var(--bs-btn-hover-color);
+    --bs-btn-active-bg: #{shade-color($bd-violet, 20%)};
+    --bs-btn-active-border-color: #{shade-color($bd-violet, 20%)};
+}
+*/
