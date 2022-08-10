@@ -1,61 +1,61 @@
-@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@300&display=swap');
-
-*{
-    padding: 0;
-    margin: 0;
+@import url("https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
 }
 
 /* GENERAL */
 .header,
-header{
-    background: linear-gradient(rgba(226, 239, 247, 100), rgba(195, 231, 232, 91));
-    text-align: center;
-    justify-self: space-between;
-    /*box-shadow: rgba(171, 205, 245, 100) 10px 10px 20px inset;
-    text-shadow: rgba(171, 205, 245, 100) 5px 5px;*/
+header {
+  background: linear-gradient(rgb(226, 239, 247), rgb(195, 231, 232));
+  text-align: center;
+  justify-self: space-between;
+  /*box-shadow: rgba(171, 205, 245, 100) 10px 10px 20px inset;
+  text-shadow: rgba(171, 205, 245, 100) 5px 5px;*/
 }
 
-footer{
-    background: linear-gradient(rgba(195, 231, 232, 91), rgba(226, 239, 247, 100));
-    text-align: center;
-    /*box-shadow: rgba(171, 205, 245, 100) 10px 10px 20px inset;
-    text-shadow: rgba(171, 205, 245, 100) 5px 5px;*/
+footer {
+  background: linear-gradient(rgb(195, 231, 232), rgb(226, 239, 247));
+  text-align: center;
+  /*box-shadow: rgba(171, 205, 245, 100) 10px 10px 20px inset;
+  text-shadow: rgba(171, 205, 245, 100) 5px 5px;*/
 }
 
 /* Fuente */
-body{
-    font-family: 'Arima Madurai', cursive;
+body {
+  font-family: "Arima Madurai", cursive;
 }
 
-main{
-    padding-top: 80px;
-    text-align: start;
+main {
+  padding-top: 80px;
+  text-align: start;
 }
 
-.main_carta{
-    padding-bottom: 20px;
+.main_carta {
+  padding-bottom: 20px;
 }
 
-.main_inicio{
-    padding-top: 0;
-    height: 100vh;
+.main_inicio {
+  padding-top: 0;
+  height: 100vh;
 }
 
-.main_quienes_somos{
-    margin: 0 15px;
-    height: 100vh;
+.main_quienes_somos {
+  margin: 0 15px;
+  height: 100vh;
 }
 
-.titulo{
-    padding-left: 10px;
+.titulo {
+  padding-left: 10px;
 }
 
 h5,
 .btn-info,
 .form-label,
-.nav-link{
-    font-weight: bolder;
+.nav-link {
+  font-weight: bolder;
 }
+
 /* Modificacion del boton bd-primary */
 /*
 .btn-bd-primary{
@@ -66,10 +66,10 @@ h5,
     --bs-btn-border-radius: .5rem; /* Borde de las esquinas del boton
     --bs-btn-hover-color: rgb(73, 154, 60); /* Color letra activo
     --bs-btn-hover-bg: rgb(60, 154, 127); /* Color boton activo
-    --bs-btn-hover-border-color: #{shade-color($bd-violet, 10%)};
-    --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+    --bs-btn-hover-border-color: shade-color();
+    --bs-btn-focus-shadow-rgb: var(rgb);
     --bs-btn-active-color: var(--bs-btn-hover-color);
-    --bs-btn-active-bg: #{shade-color($bd-violet, 20%)};
-    --bs-btn-active-border-color: #{shade-color($bd-violet, 20%)};
+    --bs-btn-active-bg: shade-color();
+    --bs-btn-active-border-color: shade-color();
 }
-*/
+*//*# sourceMappingURL=style.css.map */
