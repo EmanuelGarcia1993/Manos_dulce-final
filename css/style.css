@@ -4,8 +4,9 @@
   margin: 0;
 }
 
+/* VARIABLE DE PALETAS */
+/* Color Theme Swatches in RGBA */
 /* GENERAL */
-.header,
 header {
   background: linear-gradient(rgb(226, 239, 247), rgb(195, 231, 232));
   text-align: center;
@@ -13,12 +14,44 @@ header {
   /*box-shadow: rgba(171, 205, 245, 100) 10px 10px 20px inset;
   text-shadow: rgba(171, 205, 245, 100) 5px 5px;*/
 }
+header .nav-item {
+  transition: all 0.6s;
+}
+header .nav-item:hover {
+  font-size: 25px;
+}
+header .header_imagen:hover {
+  -webkit-animation: rotacion 4s infinite linear;
+          animation: rotacion 4s infinite linear;
+}
+@-webkit-keyframes rotacion {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+@keyframes rotacion {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
 
 footer {
-  background: linear-gradient(rgb(195, 231, 232), rgb(226, 239, 247));
+  background: linear-gradient(#5EF4FF, #adeef3);
   text-align: center;
   /*box-shadow: rgba(171, 205, 245, 100) 10px 10px 20px inset;
   text-shadow: rgba(171, 205, 245, 100) 5px 5px;*/
+}
+footer .nav-item {
+  transition: all 0.6s;
+}
+footer .nav-item:hover {
+  font-size: 25px;
 }
 
 /* Fuente */
@@ -60,16 +93,15 @@ h5,
 /*
 .btn-bd-primary{
     --bs-btn-font-weight: 600;
-    --bs-btn-color: rgb(179, 53, 53); /* Color letra inactivo
-    --bs-btn-bg: rgb(107, 12, 107); /* Color boton inactivo
-    --bs-btn-border-color: rgb(62, 60, 154); /* Borde boton inactivo
+    --bs-btn-color: $paleta_color_1; /* Color letra inactivo
+    --bs-btn-bg: ; /* Color boton inactivo
+    --bs-btn-border-color: ; /* Borde boton inactivo
     --bs-btn-border-radius: .5rem; /* Borde de las esquinas del boton
-    --bs-btn-hover-color: rgb(73, 154, 60); /* Color letra activo
-    --bs-btn-hover-bg: rgb(60, 154, 127); /* Color boton activo
-    --bs-btn-hover-border-color: shade-color();
-    --bs-btn-focus-shadow-rgb: var(rgb);
-    --bs-btn-active-color: var(--bs-btn-hover-color);
-    --bs-btn-active-bg: shade-color();
-    --bs-btn-active-border-color: shade-color();
+    --bs-btn-hover-color: ; /* Color letra seleccionado
+    --bs-btn-hover-bg: ; /* Color boton seleccionado
+    --bs-btn-hover-border-color: ; /* Borde boton seleccionado
+    --bs-btn-active-color: ; /* Letra boton activo
+    --bs-btn-active-bg: ; /* Fondo boton activo
+    --bs-btn-active-border-color: ; /* Borde boton activo
 }
 *//*# sourceMappingURL=style.css.map */
