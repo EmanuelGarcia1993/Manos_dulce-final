@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@300&display=swap');
+
+body{
+    font-family: 'Arima Madurai', cursive;
+}
+
+main{
+    padding-top: 80px;
+    text-align: start;
+}
+
+.titulo{
+    padding-left: 10px;
+}
+
+h5,
+.btn-info,
+.form-label,
+.nav-link{
+    font-weight: bolder;
+}
+
+/* Modificacion del boton bd-primary */
+/*
+.btn-bd-primary{
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: $paleta_color_1; /* Color letra inactivo
+    --bs-btn-bg: ; /* Color boton inactivo
+    --bs-btn-border-color: ; /* Borde boton inactivo
+    --bs-btn-border-radius: .5rem; /* Borde de las esquinas del boton
+    --bs-btn-hover-color: ; /* Color letra seleccionado
+    --bs-btn-hover-bg: ; /* Color boton seleccionado
+    --bs-btn-hover-border-color: ; /* Borde boton seleccionado
+    --bs-btn-active-color: ; /* Letra boton activo
+    --bs-btn-active-bg: ; /* Fondo boton activo
+    --bs-btn-active-border-color: ; /* Borde boton activo
+}
+*/

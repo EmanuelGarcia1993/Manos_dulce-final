@@ -1,0 +1,26 @@
+header{
+    background: linear-gradient(rgba(226, 239, 247, 100), rgba(195, 231, 232, 91));
+    text-align: center;
+    justify-self: space-between;
+    /*box-shadow: rgba(171, 205, 245, 100) 10px 10px 20px inset;
+    text-shadow: rgba(171, 205, 245, 100) 5px 5px;*/
+    .nav-item{
+        transition: all 0.6s;
+    }
+
+    .nav-item:hover{
+        font-size: 25px;
+    }
+    .header_imagen:hover{
+        animation: rotacion 4s infinite linear;
+    }
+    
+    @keyframes rotacion{
+        from{
+            transform: rotate(0deg);
+        }
+        to{
+            transform: rotate(359deg);
+        }
+    }
+}

@@ -1,70 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@300&display=swap');
+@import "variables";
+@import "header";
+@import "footer";
+@import "general";
 
 *{
     padding: 0;
     margin: 0;
-}
-
-/* VARIABLE DE PALETAS */
-/* Color Theme Swatches in RGBA */
-$paleta_color_1: #5BC4F5;
-$paleta_color_2: #5EF4FF;
-$paleta_color_3: #61E8CB;
-$paleta_color_4: #5EFFAF;
-$paleta_color_5: #5BF57C;
-$paleta_color_6: #adeef3;
-
-
-/* GENERAL */
-header{
-    background: linear-gradient(rgba(226, 239, 247, 100), rgba(195, 231, 232, 91));
-    text-align: center;
-    justify-self: space-between;
-    /*box-shadow: rgba(171, 205, 245, 100) 10px 10px 20px inset;
-    text-shadow: rgba(171, 205, 245, 100) 5px 5px;*/
-    .nav-item{
-        transition: all 0.6s;
-    }
-
-    .nav-item:hover{
-        font-size: 25px;
-    }
-    .header_imagen:hover{
-        animation: rotacion 4s infinite linear;
-    }
-    
-    @keyframes rotacion{
-        from{
-            transform: rotate(0deg);
-        }
-        to{
-            transform: rotate(359deg);
-        }
-    }
-}
-
-footer{
-    background: linear-gradient($paleta_color_2, $paleta_color_6);
-    text-align: center;
-    /*box-shadow: rgba(171, 205, 245, 100) 10px 10px 20px inset;
-    text-shadow: rgba(171, 205, 245, 100) 5px 5px;*/
-    .nav-item{
-        transition: all 0.6s;
-    }
-
-    .nav-item:hover{
-        font-size: 25px;
-    }
-}
-
-/* Fuente */
-body{
-    font-family: 'Arima Madurai', cursive;
-}
-
-main{
-    padding-top: 80px;
-    text-align: start;
 }
 
 .main_carta{
@@ -80,32 +21,3 @@ main{
     margin: 0 15px;
     height: 100vh;
 }
-
-.titulo{
-    padding-left: 10px;
-}
-
-h5,
-.btn-info,
-.form-label,
-.nav-link{
-    font-weight: bolder;
-}
-
-
-/* Modificacion del boton bd-primary */
-/*
-.btn-bd-primary{
-    --bs-btn-font-weight: 600;
-    --bs-btn-color: $paleta_color_1; /* Color letra inactivo
-    --bs-btn-bg: ; /* Color boton inactivo
-    --bs-btn-border-color: ; /* Borde boton inactivo
-    --bs-btn-border-radius: .5rem; /* Borde de las esquinas del boton
-    --bs-btn-hover-color: ; /* Color letra seleccionado
-    --bs-btn-hover-bg: ; /* Color boton seleccionado
-    --bs-btn-hover-border-color: ; /* Borde boton seleccionado
-    --bs-btn-active-color: ; /* Letra boton activo
-    --bs-btn-active-bg: ; /* Fondo boton activo
-    --bs-btn-active-border-color: ; /* Borde boton activo
-}
-*/

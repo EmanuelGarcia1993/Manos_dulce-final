@@ -1,0 +1,15 @@
+
+
+footer{
+    background: linear-gradient($paleta_color_2, $paleta_color_6);
+    text-align: center;
+    /*box-shadow: rgba(171, 205, 245, 100) 10px 10px 20px inset;
+    text-shadow: rgba(171, 205, 245, 100) 5px 5px;*/
+    .nav-item{
+        transition: all 0.6s;
+    }
+
+    .nav-item:hover{
+        font-size: 25px;
+    }
+}

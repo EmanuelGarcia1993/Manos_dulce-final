@@ -1,12 +1,5 @@
+/* Colores */
 @import url("https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@300&display=swap");
-* {
-  padding: 0;
-  margin: 0;
-}
-
-/* VARIABLE DE PALETAS */
-/* Color Theme Swatches in RGBA */
-/* GENERAL */
 header {
   background: linear-gradient(rgb(226, 239, 247), rgb(195, 231, 232));
   text-align: center;
@@ -54,7 +47,6 @@ footer .nav-item:hover {
   font-size: 25px;
 }
 
-/* Fuente */
 body {
   font-family: "Arima Madurai", cursive;
 }
@@ -62,20 +54,6 @@ body {
 main {
   padding-top: 80px;
   text-align: start;
-}
-
-.main_carta {
-  padding-bottom: 20px;
-}
-
-.main_inicio {
-  padding-top: 0;
-  height: 100vh;
-}
-
-.main_quienes_somos {
-  margin: 0 15px;
-  height: 100vh;
 }
 
 .titulo {
@@ -104,4 +82,22 @@ h5,
     --bs-btn-active-bg: ; /* Fondo boton activo
     --bs-btn-active-border-color: ; /* Borde boton activo
 }
-*//*# sourceMappingURL=style.css.map */
+*/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.main_carta {
+  padding-bottom: 20px;
+}
+
+.main_inicio {
+  padding-top: 0;
+  height: 100vh;
+}
+
+.main_quienes_somos {
+  margin: 0 15px;
+  height: 100vh;
+}/*# sourceMappingURL=style.css.map */
