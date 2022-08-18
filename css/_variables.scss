@@ -5,3 +5,9 @@ $paleta_color_3: #61E8CB;
 $paleta_color_4: #5EFFAF;
 $paleta_color_5: #5BF57C;
 $paleta_color_6: #adeef3;
+
+@mixin estilo_de_texto($grosor, $color, $tamanio) {
+    font-weight: $grosor;
+    color: $color;
+    font-size: $tamanio;
+}

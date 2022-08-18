@@ -4,8 +4,6 @@ header {
   background: linear-gradient(rgb(226, 239, 247), rgb(195, 231, 232));
   text-align: center;
   justify-self: space-between;
-  /*box-shadow: rgba(171, 205, 245, 100) 10px 10px 20px inset;
-  text-shadow: rgba(171, 205, 245, 100) 5px 5px;*/
 }
 header .nav-item {
   transition: all 0.6s;
@@ -65,6 +63,17 @@ h5,
 .form-label,
 .nav-link {
   font-weight: bolder;
+}
+
+.row h5 {
+  font-weight: bolder;
+  color: black;
+  font-size: 25px;
+}
+.row .nav-item {
+  font-weight: 200;
+  color: black;
+  font-size: 18px;
 }
 
 /* Modificacion del boton bd-primary */

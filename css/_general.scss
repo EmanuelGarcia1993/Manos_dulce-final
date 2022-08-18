@@ -20,6 +20,14 @@ h5,
     font-weight: bolder;
 }
 
+.row{
+    h5{
+        @include estilo_de_texto(bolder, black, 25px)
+    }
+    .nav-item{
+        @include estilo_de_texto(200, black, 18px)
+    }
+}
 /* Modificacion del boton bd-primary */
 /*
 .btn-bd-primary{
