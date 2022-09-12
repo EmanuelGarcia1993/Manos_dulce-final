@@ -29,16 +29,22 @@
                     <nav class="navbar bg-light fixed-top">
                         <div class="container-fluid">
                             <a class="navbar-brand" href="index.html">
-                                <img class="header_imagen" src="media/images/Logo sin fondo final.png" height="40em" alt="logo">
+                                <img class="header_imagen" src="media/images/Logo sin fondo final.png" height="40em"
+                                    alt="logo">
                                 <strong class="titulo">Manos Dulces</strong>
                             </a>
-                            <button class="navbar-toggler btn btn-outline-info" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                            <button class="navbar-toggler btn btn-outline-info" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                                 <span class="navbar-toggler-icon"></span>
                             </button>
-                            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                                aria-labelledby="offcanvasNavbarLabel">
                                 <div class="offcanvas-header">
-                                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><p><strong>Menu de Manos Dulces</strong></p></h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                                        <p><strong>Menu de Manos Dulces</strong></p>
+                                    </h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                        aria-label="Close"></button>
                                 </div>
                                 <div class="offcanvas-body">
                                     <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
@@ -67,18 +73,23 @@
                                                 Iniciar Sesion
                                             </a>
                                         </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="pages/carrito.html">
-                                                Carrito
-                                            </a>
-                                        </li>
+                                        <div class="display_none">
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="pages/carrito.html">
+                                                    Carrito
+                                                </a>
+                                            </li>
+                                        </div>
                                     </ul>
-                                    <form class="d-flex" role="search">
-                                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                                        <button class="btn btn-outline-info" type="submit">
-                                            Buscar
-                                        </button>
-                                    </form>
+                                    <div class="display_none">
+                                        <form class="d-flex" role="search">
+                                            <input class="form-control me-2" type="search" placeholder="Buscar"
+                                                aria-label="Search">
+                                            <button class="btn btn-outline-info" type="submit">
+                                                Buscar
+                                            </button>
+                                        </form>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -98,9 +109,6 @@
             </div>
         </div>
 
-        <!--<div class="index_principal--imagen_movil">
-            <img src="media/svg/Chef Recortado 2.png" alt="Fondo">
-        </div>-->
     </main>
 
     <!-- ASIDE -->
@@ -141,11 +149,13 @@
                                 Iniciar Sesion
                             </a>
                         </li>
-                        <li class="nav-item mb-2">
-                            <a href="pages/carrito.html" class="nav-link p-0 text-muted">
-                                Carrito
-                            </a>
-                        </li>
+                        <div class="display_none">
+                            <li class="nav-item mb-2">
+                                <a href="pages/carrito.html" class="nav-link p-0 text-muted">
+                                    Carrito
+                                </a>
+                            </li>
+                        </div>
                     </ul>
                 </div>
 
@@ -153,12 +163,12 @@
                     <h5>Redes sociales</h5>
                     <ul class="nav flex-column">
                         <li class="nav-item mb-2">
-                            <a href="https://www.facebook.com/" class="nav-link p-0 text-muted">
+                            <a target="_blank" href="https://www.facebook.com/" class="nav-link p-0 text-muted">
                                 Facebook
                             </a>
                         </li>
                         <li class="nav-item mb-2">
-                            <a href="https://www.instagram.com/manos.dulces_md/" class="nav-link p-0 text-muted">
+                            <a target="_blank" href="https://www.instagram.com/manos.dulces_md/" class="nav-link p-0 text-muted">
                                 Instagram
                             </a>
                         </li>
@@ -185,17 +195,17 @@
                 <p>Muchas gracias por visitar nuestra pagina</p>
                 <ul class="list-unstyled d-flex">
                     <li class="ms-3">
-                        <a class="link-dark" href="https://www.facebook.com/">
+                        <a class="link-dark" target="_blank" href="https://www.facebook.com/">
                             <img src="media/images/icon/bxl-facebook-square.svg" alt="Facebook">
                         </a>
                     </li>
                     <li class="ms-3">
-                        <a class="link-dark" href="https://www.instagram.com/manos.dulces_md/">
+                        <a class="link-dark" target="_blank" href="https://www.instagram.com/manos.dulces_md/">
                             <img src="media/images/icon/bxl-instagram-alt.svg" alt="Instagram">
                         </a>
                     </li>
                     <li class="ms-3">
-                        <a class="link-dark" href="https://api.whatsapp.com/send?phone=543541686195">
+                        <a class="link-dark" target="_blank" href="https://api.whatsapp.com/send?phone=543541686195">
                             <img src="media/images/icon/bxl-whatsapp.svg" alt="Whatsapp">
                         </a>
                     </li>
@@ -205,7 +215,9 @@
     </footer>
 
     <!-- JavaScript de Bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
 
 </body>
 

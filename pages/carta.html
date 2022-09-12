@@ -29,16 +29,22 @@
                     <nav class="navbar bg-light fixed-top">
                         <div class="container-fluid">
                             <a class="navbar-brand" href="../index.html">
-                                <img class="header_imagen" src="../media/images/Logo sin fondo final.png" height="40em" alt="logo">
+                                <img class="header_imagen" src="../media/images/Logo sin fondo final.png" height="40em"
+                                    alt="logo">
                                 <strong class="titulo">Manos Dulces</strong>
                             </a>
-                            <button class="navbar-toggler btn btn-outline-info" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                            <button class="navbar-toggler btn btn-outline-info" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                                 <span class="navbar-toggler-icon"></span>
                             </button>
-                            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                                aria-labelledby="offcanvasNavbarLabel">
                                 <div class="offcanvas-header">
-                                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><p><strong>Menu de Manos Dulces</strong></p></h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                                        <p><strong>Menu de Manos Dulces</strong></p>
+                                    </h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                        aria-label="Close"></button>
                                 </div>
                                 <div class="offcanvas-body">
                                     <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
@@ -67,19 +73,23 @@
                                                 Iniciar Sesion
                                             </a>
                                         </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="carrito.html">
-                                                Carrito
-                                            </a>
-                                        </li>
+                                        <div class="display_none">
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="carrito.html">
+                                                    Carrito
+                                                </a>
+                                            </li>
+                                        </div>
                                     </ul>
-                                    <form class="d-flex" role="search">
-                                        <input class="form-control me-2" type="search" placeholder="Buscar"
-                                            aria-label="Search">
-                                        <button class="btn btn-outline-info" type="submit">
-                                            Buscar
-                                        </button>
-                                    </form>
+                                    <div class="display_none">
+                                        <form class="d-flex" role="search">
+                                            <input class="form-control me-2" type="search" placeholder="Buscar"
+                                                aria-label="Search">
+                                            <button class="btn btn-outline-info" type="submit">
+                                                Buscar
+                                            </button>
+                                        </form>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -103,7 +113,7 @@
                         <h2 class="accordion-header" id="headingMenuOne">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseMenuOne" aria-expanded="false" aria-controls="collapseMenuOne">
-                                <strong>Menu 1</strong>
+                                <strong>Tortas</strong>
                             </button>
                         </h2>
 
@@ -120,7 +130,9 @@
                                             <button class="accordion-button collapsed" type="button"
                                                 data-bs-toggle="collapse" data-bs-target="#collapseSubmenuOneOne"
                                                 aria-expanded="false" aria-controls="collapseSubmenuOneOne">
-                                                Articulo
+                                                <strong>
+                                                    Marquise
+                                                </strong>
                                             </button>
                                         </h2>
 
@@ -128,7 +140,7 @@
                                             aria-labelledby="headingSubmenuOneOne"
                                             data-bs-parent="#accordionSubmenuOne">
                                             <div class="accordion-body">
-                                                <p class="h1">Aqui va la descripcion</p>
+                                                <p class="h5">La Marquise es un postre con base de brownie, dulce de leche con crema chantilli y con deoracion de frutos rojos</p>
                                             </div>
                                         </div>
                                     </div>
@@ -140,7 +152,9 @@
                                             <button class="accordion-button collapsed" type="button"
                                                 data-bs-toggle="collapse" data-bs-target="#collapseSubmenuOneTwo"
                                                 aria-expanded="false" aria-controls="collapseSubmenuOneTwo">
-                                                Articulo
+                                                <strong>
+                                                    Choco oreo
+                                                </strong>
                                             </button>
                                         </h2>
 
@@ -148,7 +162,7 @@
                                             aria-labelledby="headingSubmenuOneTwo"
                                             data-bs-parent="#accordionSubmenuOne">
                                             <div class="accordion-body">
-                                                <p class="h1">Aqui va la descripcion</p>
+                                                <p class="h5">La Choco Oreo esta hecha con dulce de leche y queso crema con base de galletitas Chocolina y Oreos</p>
                                             </div>
                                         </div>
                                     </div>
@@ -160,7 +174,9 @@
                                             <button class="accordion-button collapsed" type="button"
                                                 data-bs-toggle="collapse" data-bs-target="#collapseSubmenuOneThree"
                                                 aria-expanded="false" aria-controls="collapseSubmenuOneThree">
-                                                Articulo
+                                                <strong>
+                                                    Choco torta
+                                                </strong>
                                             </button>
                                         </h2>
 
@@ -168,7 +184,7 @@
                                             aria-labelledby="headingSubmenuOneThree"
                                             data-bs-parent="#accordionSubmenuOne">
                                             <div class="accordion-body">
-                                                <p class="h1">Aqui va la descripcion</p>
+                                                <p class="h5">La Choco Torta esta hecha con dulce de leche y queso crema con base de galletitas Chocolina y espoloreado con galletitas</p>
                                             </div>
                                         </div>
                                     </div>
@@ -180,7 +196,9 @@
                                             <button class="accordion-button collapsed" type="button"
                                                 data-bs-toggle="collapse" data-bs-target="#collapseSubmenuOneFour"
                                                 aria-expanded="false" aria-controls="collapseSubmenuOneFour">
-                                                Articulo
+                                                <strong>
+                                                    Number Cake
+                                                </strong>
                                             </button>
                                         </h2>
 
@@ -188,7 +206,51 @@
                                             aria-labelledby="headingSubmenuOneFour"
                                             data-bs-parent="#accordionSubmenuOne">
                                             <div class="accordion-body">
-                                                <p class="h1">Aqui va la descripcion</p>
+                                                <p class="h5">La Number Cake esta hecha a base de brownie con relleno de dulce de leche y con una decoracion a eleccion del cliente</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!------------------------------------Separacion de Sub menu------------------------------------------>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingSubmenuOneFive">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseSubmenuOneFive"
+                                                aria-expanded="false" aria-controls="collapseSubmenuOneFive">
+                                                <strong>
+                                                    Leter cake
+                                                </strong>
+                                            </button>
+                                        </h2>
+
+                                        <div id="collapseSubmenuOneFive" class="accordion-collapse collapse"
+                                            aria-labelledby="headingSubmenuOneFive"
+                                            data-bs-parent="#accordionSubmenuOne">
+                                            <div class="accordion-body">
+                                                <p class="h5">La Leter Cake esta hecha a base de brownie con relleno de dulce de leche y con una decoracion a eleccion del cliente</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!------------------------------------Separacion de Sub menu------------------------------------------>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingSubmenuOneSix">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseSubmenuOneSix"
+                                                aria-expanded="false" aria-controls="collapseSubmenuOneSix">
+                                                <strong>
+                                                    Rogel
+                                                </strong>
+                                            </button>
+                                        </h2>
+
+                                        <div id="collapseSubmenuOneSix" class="accordion-collapse collapse"
+                                            aria-labelledby="headingSubmenuOneSix"
+                                            data-bs-parent="#accordionSubmenuOne">
+                                            <div class="accordion-body">
+                                                <p class="h5">La Rogel es una torta hecha de masa crujiente intercalando capas con dulce de leche y decorada con merenge italiano</p>
                                             </div>
                                         </div>
                                     </div>
@@ -203,7 +265,7 @@
                         <h2 class="accordion-header" id="headingMenuTwo">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseMenuTwo" aria-expanded="false" aria-controls="collapseMenuTwo">
-                                <strong>Menu 2</strong>
+                                <strong>Tartas</strong>
                             </button>
                         </h2>
                         <div id="collapseMenuTwo" class="accordion-collapse collapse" aria-labelledby="headingMenuTwo"
@@ -219,7 +281,9 @@
                                             <button class="accordion-button collapsed" type="button"
                                                 data-bs-toggle="collapse" data-bs-target="#collapseSubmenuTwoOne"
                                                 aria-expanded="false" aria-controls="collapseSubmenuTwoOne">
-                                                Articulo
+                                                <strong>
+                                                    Lemon Pie
+                                                </strong>
                                             </button>
                                         </h2>
 
@@ -227,7 +291,7 @@
                                             aria-labelledby="headingSubmenuTwoOne"
                                             data-bs-parent="#accordionSubmenuTwo">
                                             <div class="accordion-body">
-                                                <p class="h1">Aqui va la descripcion</p>
+                                                <p class="h5">El Lemon Pie esta hecho con una base suave, Relleno con mouse de limon, decorado con merenge italiano y ralladura de limon</p>
                                             </div>
                                         </div>
                                     </div>
@@ -239,7 +303,9 @@
                                             <button class="accordion-button collapsed" type="button"
                                                 data-bs-toggle="collapse" data-bs-target="#collapseSubmenuTwoTwo"
                                                 aria-expanded="false" aria-controls="collapseSubmenuTwoTwo">
-                                                Articulo
+                                                <strong>
+                                                    Frutal
+                                                </strong>
                                             </button>
                                         </h2>
 
@@ -247,7 +313,7 @@
                                             aria-labelledby="headingSubmenuTwoTwo"
                                             data-bs-parent="#accordionSubmenuTwo">
                                             <div class="accordion-body">
-                                                <p class="h1">Aqui va la descripcion</p>
+                                                <p class="h5">La Frutal esta hecho con una base suave, rellena con crema chantilli y decorado con frutas de estacion</p>
                                             </div>
                                         </div>
                                     </div>
@@ -259,7 +325,9 @@
                                             <button class="accordion-button collapsed" type="button"
                                                 data-bs-toggle="collapse" data-bs-target="#collapseSubmenuTwoThree"
                                                 aria-expanded="false" aria-controls="collapseSubmenuTwoThree">
-                                                Articulo
+                                                <strong>
+                                                    Frutilla
+                                                </strong>
                                             </button>
                                         </h2>
 
@@ -267,7 +335,7 @@
                                             aria-labelledby="headingSubmenuTwoThree"
                                             data-bs-parent="#accordionSubmenuTwo">
                                             <div class="accordion-body">
-                                                <p class="h1">Aqui va la descripcion</p>
+                                                <p class="h5">La Frutilla esta hecha con una besa suave, rellena con frutilla y gelatina sabor frutilla, decorada con crema chantilli</p>
                                             </div>
                                         </div>
                                     </div>
@@ -279,7 +347,9 @@
                                             <button class="accordion-button collapsedd" type="button"
                                                 data-bs-toggle="collapse" data-bs-target="#collapseSubmenuTwoFour"
                                                 aria-expanded="false" aria-controls="collapseSubmenuTwoFour">
-                                                Articulo
+                                                <strong>
+                                                    Coco
+                                                </strong>
                                             </button>
                                         </h2>
 
@@ -287,7 +357,311 @@
                                             aria-labelledby="headingSubmenuTwoFour"
                                             data-bs-parent="#accordionSubmenuTwo">
                                             <div class="accordion-body">
-                                                <p class="h1">Aqui va la descripcion</p>
+                                                <p class="h5">La Coco esta hecha con una base suave, rellena de con dulce de leche y coco, decorada con ralladuras de coco, limon y naranja</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!------------------------------------Separacion de menu------------------------------------------>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingMenuThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseMenuThree" aria-expanded="false"
+                                aria-controls="collapseMenuThree">
+                                <strong>Postres</strong>
+                            </button>
+                        </h2>
+                        <div id="collapseMenuThree" class="accordion-collapse collapse"
+                            aria-labelledby="headingMenuThree" data-bs-parent="#accordionMenu">
+                            <div class="accordion-body">
+
+                                <div class="accordion" id="accordionSubmenuThree">
+
+                                    <!------------------------------------Separacion de Sub menu------------------------------------------>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingSubmenuThreeOne">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseSubmenuThreeOne"
+                                                aria-expanded="false" aria-controls="collapseSubmenuThreeOne">
+                                                <strong>
+                                                    Choco Torta
+                                                </strong>
+                                            </button>
+                                        </h2>
+
+                                        <div id="collapseSubmenuThreeOne" class="accordion-collapse collapse"
+                                            aria-labelledby="headingSubmenuThreeOne"
+                                            data-bs-parent="#accordionSubmenuThree">
+                                            <div class="accordion-body">
+                                                <p class="h5">La Choco Torta esta hecha con dulce de leche y queso crema con base de galletitas Chocolina y espoloreado con galletitas</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!------------------------------------Separacion de Sub menu------------------------------------------>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingSubmenuThreeTwo">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseSubmenuThreeTwo"
+                                                aria-expanded="false" aria-controls="collapseSubmenuThreeTwo">
+                                                <strong>
+                                                    Choco Oreo
+                                                </strong>
+                                            </button>
+                                        </h2>
+
+                                        <div id="collapseSubmenuThreeTwo" class="accordion-collapse collapse"
+                                            aria-labelledby="headingSubmenuThreeTwo"
+                                            data-bs-parent="#accordionSubmenuThree">
+                                            <div class="accordion-body">
+                                                <p class="h5">La Choco Oreo esta hecha con dulce de leche y queso crema con base de galletitas Chocolina y Oreos</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!------------------------------------Separacion de Sub menu------------------------------------------>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingSubmenuThreeThree">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseSubmenuThreeThree"
+                                                aria-expanded="false" aria-controls="collapseSubmenuThreeThree">
+                                                <strong>
+                                                    Tiramisu
+                                                </strong>
+                                            </button>
+                                        </h2>
+
+                                        <div id="collapseSubmenuThreeThree" class="accordion-collapse collapse"
+                                            aria-labelledby="headingSubmenuThreeThree"
+                                            data-bs-parent="#accordionSubmenuThree">
+                                            <div class="accordion-body">
+                                                <p class="h5">El Tiramisu esta hecho con vainillas remojadas en cafe con un relleno de crema a punto nieve mezclada con un queso suave, decorada con cacao espolvoreado</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!------------------------------------Separacion de Sub menu------------------------------------------>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingSubmenuThreeFour">
+                                            <button class="accordion-button collapsedd" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseSubmenuThreeFour"
+                                                aria-expanded="false" aria-controls="collapseSubmenuThreeFour">
+                                                <strong>
+                                                    Marquise
+                                                </strong>
+                                            </button>
+                                        </h2>
+
+                                        <div id="collapseSubmenuThreeFour" class="accordion-collapse collapse"
+                                            aria-labelledby="headingSubmenuThreeFour"
+                                            data-bs-parent="#accordionSubmenuThree">
+                                            <div class="accordion-body">
+                                                <p class="h5">La Marquise es un postre con base de brownie, dulce de leche con crema chantilli y con deoracion de frutos rojos</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!------------------------------------Separacion de menu------------------------------------------>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingMenuFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseMenuFour" aria-expanded="false"
+                                aria-controls="collapseMenuFour">
+                                <strong>Desayunos</strong>
+                            </button>
+                        </h2>
+                        <div id="collapseMenuFour" class="accordion-collapse collapse" aria-labelledby="headingMenuFour"
+                            data-bs-parent="#accordionMenu">
+                            <div class="accordion-body">
+
+                                <div class="accordion" id="accordionSubmenuFour">
+
+                                    <!------------------------------------Separacion de Sub menu------------------------------------------>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingSubmenuFourOne">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseSubmenuFourOne"
+                                                aria-expanded="false" aria-controls="collapseSubmenuFourOne">
+                                                <strong>
+                                                    Simple
+                                                </strong>
+                                            </button>
+                                        </h2>
+
+                                        <div id="collapseSubmenuFourOne" class="accordion-collapse collapse"
+                                            aria-labelledby="headingSubmenuFourOne"
+                                            data-bs-parent="#accordionSubmenuFour">
+                                            <div class="accordion-body">
+                                                <p class="h5">Cuenta con un postre a eleccion, alfajores de coco, 1 jugo Cepita de 500cc y dos sandwich de jamon y queso con pan cacero. Todo viene incluido con una bandeja de madera decorada</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!------------------------------------Separacion de Sub menu------------------------------------------>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingSubmenuFourTwo">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseSubmenuFourTwo"
+                                                aria-expanded="false" aria-controls="collapseSubmenuFourTwo">
+                                                <strong>
+                                                    Completo
+                                                </strong>
+                                            </button>
+                                        </h2>
+
+                                        <div id="collapseSubmenuFourTwo" class="accordion-collapse collapse"
+                                            aria-labelledby="headingSubmenuFourTwo"
+                                            data-bs-parent="#accordionSubmenuFour">
+                                            <div class="accordion-body">
+                                                <p class="h5">Cuenta con un postre a eleccion, alfajores de coco, 1 jugo Cepita de 500cc y dos sandwich de jamon y queso con pan cacero, 1 taza, conitos Oreo y una mini pastafrola. Todo viene incluido con una bandeja de madera decorada</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!------------------------------------Separacion de Sub menu------------------------------------------>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingSubmenuFourThree">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseSubmenuFourThree"
+                                                aria-expanded="false" aria-controls="collapseSubmenuFourThree">
+                                                <strong>
+                                                    Extras
+                                                </strong>
+                                            </button>
+                                        </h2>
+
+                                        <div id="collapseSubmenuFourThree" class="accordion-collapse collapse"
+                                            aria-labelledby="headingSubmenuFourThree"
+                                            data-bs-parent="#accordionSubmenuFour">
+                                            <div class="accordion-body">
+                                                <p class="h5">Los extras del desayuno pueden ser: Mates, Tazas, Cuencos, Postres, Tartas, Tortas, Tarjetas personalidas, Flores, Globos, Azucarera, Yerbera</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!------------------------------------Separacion de menu------------------------------------------>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingMenuFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseMenuFive" aria-expanded="false"
+                                aria-controls="collapseMenuFive">
+                                <strong>
+                                    Para acompañar
+                                </strong>
+                            </button>
+                        </h2>
+                        <div id="collapseMenuFive" class="accordion-collapse collapse" aria-labelledby="headingMenuFive"
+                            data-bs-parent="#accordionMenu">
+                            <div class="accordion-body">
+
+                                <div class="accordion" id="accordionSubmenuFive">
+
+                                    <!------------------------------------Separacion de Sub menu------------------------------------------>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingSubmenuFiveOne">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseSubmenuFiveOne"
+                                                aria-expanded="false" aria-controls="collapseSubmenuFiveOne">
+                                                <strong>
+                                                    Pasta Frola
+                                                </strong>
+                                            </button>
+                                        </h2>
+
+                                        <div id="collapseSubmenuFiveOne" class="accordion-collapse collapse"
+                                            aria-labelledby="headingSubmenuFiveOne"
+                                            data-bs-parent="#accordionSubmenuFive">
+                                            <div class="accordion-body">
+                                                <p class="h5">La Pastafrola esta hecha a base de masa quebrada rellena con dulce de membrillo, batata o dulce de leche decorada con tiras de masa</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!------------------------------------Separacion de Sub menu------------------------------------------>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingSubmenuFiveTwo">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseSubmenuFiveTwo"
+                                                aria-expanded="false" aria-controls="collapseSubmenuFiveTwo">
+                                                <strong>
+                                                    Cokies con Oreo
+                                                </strong>
+                                            </button>
+                                        </h2>
+
+                                        <div id="collapseSubmenuFiveTwo" class="accordion-collapse collapse"
+                                            aria-labelledby="headingSubmenuFiveTwo"
+                                            data-bs-parent="#accordionSubmenuFive">
+                                            <div class="accordion-body">
+                                                <p class="h5">Las Cokies con Oreo estan hechas con una masa dulce mezcladas con chip de chocolate</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!------------------------------------Separacion de Sub menu------------------------------------------>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingSubmenuFiveThree">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseSubmenuFiveThree"
+                                                aria-expanded="false" aria-controls="collapseSubmenuFiveThree">
+                                                <strong>
+                                                    Conitos Oreo
+                                                </strong>
+                                            </button>
+                                        </h2>
+
+                                        <div id="collapseSubmenuFiveThree" class="accordion-collapse collapse"
+                                            aria-labelledby="headingSubmenuFiveThree"
+                                            data-bs-parent="#accordionSubmenuFive">
+                                            <div class="accordion-body">
+                                                <p class="h5">Los Conitos Oreo estan hechas con una base de Oreo rellenos con dulce de leche bañado con chocolate amargo</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!------------------------------------Separacion de Sub menu------------------------------------------>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingSubmenuFiveFour">
+                                            <button class="accordion-button collapsedd" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseSubmenuFiveFour"
+                                                aria-expanded="false" aria-controls="collapseSubmenuFiveFour">
+                                                <strong>
+                                                    Budin
+                                                </strong>
+                                            </button>
+                                        </h2>
+
+                                        <div id="collapseSubmenuFiveFour" class="accordion-collapse collapse"
+                                            aria-labelledby="headingSubmenuFiveFour"
+                                            data-bs-parent="#accordionSubmenuFive">
+                                            <div class="accordion-body">
+                                                <p class="h5">El Budin esta hecho con una masa de vainilla y naranja decorado con un baño de glase citrico</p>
                                             </div>
                                         </div>
                                     </div>
@@ -301,38 +675,6 @@
                 </div>
             </div>
         </div>
-
-        <!--
-        <div>
-            <ul>
-                <p>Tortas</p>
-                <li>Chocotorta</li>
-                <li>Torta de Oreo</li>
-                <li>Torta frutal</li>
-                <li>Torta de cafe</li>
-            </ul>
-            <ul>
-                <p>Tartas</p>
-                <li>Lemon Pie</li>
-                <li>Frutilla</li>
-                <li>Kiwi</li>
-                <li>Coco con dulce de leche</li>
-            </ul>
-            <ul>
-                <p>Postres</p>
-                <li>Choco Oreo</li>
-                <li>Tiramisu</li>
-                <li>Chocotorta</li>
-                <li>Lemon Pie</li>
-            </ul>
-            <ul>
-                <p>Meriendas</p>
-                <li>Completa</li>
-                <li>Simple</li>
-                <li>Personalizada</li>
-            </ul>
-        </div>
-        -->
     </main>
 
     <!-- ASIDE -->
@@ -372,11 +714,13 @@
                                 Iniciar Sesion
                             </a>
                         </li>
-                        <li class="nav-item mb-2">
-                            <a href="carrito.html" class="nav-link p-0 text-muted">
-                                Carrito
-                            </a>
-                        </li>
+                        <div class="display_none">
+                            <li class="nav-item mb-2">
+                                <a href="carrito.html" class="nav-link p-0 text-muted">
+                                    Carrito
+                                </a>
+                            </li>
+                        </div>
                     </ul>
                 </div>
 
@@ -384,12 +728,12 @@
                     <h5>Redes sociales</h5>
                     <ul class="nav flex-column">
                         <li class="nav-item mb-2">
-                            <a href="https://www.facebook.com/" class="nav-link p-0 text-muted">
+                            <a target="_blank" href="https://www.facebook.com/" class="nav-link p-0 text-muted">
                                 Facebook
                             </a>
                         </li>
                         <li class="nav-item mb-2">
-                            <a href="https://www.instagram.com/manos.dulces_md/" class="nav-link p-0 text-muted">
+                            <a target="_blank" href="https://www.instagram.com/manos.dulces_md/" class="nav-link p-0 text-muted">
                                 Instagram
                             </a>
                         </li>
@@ -414,17 +758,17 @@
                 <p>Muchas gracias por visitar nuestra pagina</p>
                 <ul class="list-unstyled d-flex">
                     <li class="ms-3">
-                        <a class="link-dark" href="https://www.facebook.com/">
+                        <a class="link-dark" target="_blank" href="https://www.facebook.com/">
                             <img src="../media/images/icon/bxl-facebook-square.svg" alt="Facebook">
                         </a>
                     </li>
                     <li class="ms-3">
-                        <a class="link-dark" href="https://www.instagram.com/manos.dulces_md/">
+                        <a class="link-dark" target="_blank" href="https://www.instagram.com/manos.dulces_md/">
                             <img src="../media/images/icon/bxl-instagram-alt.svg" alt="Instagram">
                         </a>
                     </li>
                     <li class="ms-3">
-                        <a class="link-dark" href="https://api.whatsapp.com/send?phone=543541686195">
+                        <a class="link-dark" target="_blank" href="https://api.whatsapp.com/send?phone=543541686195">
                             <img src="../media/images/icon/bxl-whatsapp.svg" alt="Whatsapp">
                         </a>
                     </li>
@@ -434,7 +778,10 @@
     </footer>
 
     <!-- JavaScript de BOOTSTRAP -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
 
 </body>
+
 </html>

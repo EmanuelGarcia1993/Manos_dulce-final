@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@300&display=swap');
 
+.display_none{
+    display: none;
+}
+
 body{
     font-family: 'Arima Madurai', cursive;
 }
@@ -28,6 +32,8 @@ h5,
         @include estilo_de_texto(200, black, 18px)
     }
 }
+
+
 /* Modificacion del boton bd-primary */
 /*
 .btn-bd-primary{
